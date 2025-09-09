@@ -13,7 +13,6 @@ public class SavingsAccount
         if(balance>=amount)
         {
             balance-=amount;
-            balance-=1;
             System.out.println(amount+" Amount debited.Main Balance is "+balance);
         }
         else{
